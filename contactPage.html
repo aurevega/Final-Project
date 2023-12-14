@@ -1,0 +1,88 @@
+<!--Aurelia Vega
+Contact Page -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Us</title>
+        <script src ="../CssFiles/header.html"></script>
+        <link rel="stylesheet" href="../CssFiles/contactPage.css">
+    </head>
+    <body>
+        <!--div for logo and nav bar-->
+        <div class="flexdiv">
+            <h1>T<span class="font">iarah's</span> D<span class="font">ay</span> S<span class="font">pa & </span>S<span class="font">alon</span></h1>
+            <nav>
+                <a href="./HomePage.html">Home</a>
+                <a href="./Service.html">Services</a> 
+                <a href="./Appointment.html">Appointments</a> 
+                <a href="./about.html">About Us</a>
+                <a href="./contactPage.html">Contact Us</a>
+            </nav>
+        </div>
+        <!--container for divs-->
+        <main>
+            <!--div holding hour, address, and contact information-->
+            <div>
+                <h2>Contact Us</h2>
+                <h3>Hours</h3>
+                <p>Sunday & Monday ~ Closed <br>
+                    Tuesday-Friday ~ 10:00 am to 7:00 pm<br>
+                    Saturday ~ 8:00 am to 1:00 pm</p>
+                <h3>Address</h3>
+                <p>5370 Hwy 10 E, Suite F <br>
+                    Stevens Point, WI  54482 <br>
+                    (715) 341-1500
+                </p>
+            </div>
+            <!--div float to the right with user input-->
+            <div class="floatDiv">
+                <form action="#">
+                    <!--create web form for name, phone number, email, and comments for user-->
+                    <fieldset>
+                        <legend>Contact Details</legend>
+                        <label for="name">Name <em>*</em></label>
+                        <input id="name" name="name" required><br>
+                        <label for="telephone">Phone Number <em>*</em></label>
+                        <input id="telephone" type="tel" placeholder="(XXX)-XXX-XXXX" required><br>
+                        <label for="email">Email</label>
+                        <input id ="email"><br>
+                        <label for="comments">Comments</label>
+                        <textarea id="comments" name ="comments"></textarea>
+                    </fieldset>
+                    <!--create web form for best call back if office not reached-->
+                    <fieldset>
+                        <legend>Best Call Back Time</legend>
+                        <label for="morning">Morning</label>
+                        <input type="checkbox" id="morning" name="morning">
+
+                        <label for="afternoon">Afternoon</label>
+                        <input type="checkbox" id="afternoon" name="afternoon">
+                    
+                        <label for="evening">Evening</label>
+                        <input type="checkbox" id="evening" name="evening">
+                    </fieldset>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </main>
+        <!--fixed footer at the bottom of the web page-->
+        <footer>
+            <div>
+                <h3>Hours</h3>
+                <p>
+                    Sunday & Monday ~ Closed <br>
+                    Tuesday-Friday ~ 10:00 am to 7:00 pm<br>
+                    Saturday ~ 8:00 am to 1:00 pm
+                </p>
+            </div>
+            <div class="floatRight">
+                <h3>Address</h3>
+                <p>5370 Hwy 10 E, Suite F <br>
+                    Stevens Point, WI  54482 <br>
+                    (715) 341-1500
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

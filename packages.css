@@ -1,0 +1,104 @@
+/*logo*/
+h1 {
+    float:left;
+    text-transform: uppercase;
+    font-size: 3.5vh;
+    width: 22%;
+    margin-top: 1%;
+    margin-left: 1%;;
+    position: absolute;
+    border-style: solid;
+    padding: 1px;
+    background-color: whitesmoke;
+}
+.font {
+    font-size: small;
+}
+.flexdiv {
+    position:relative;
+    display: flex;
+}
+nav {
+    position: absolute;
+    right: 0;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: solid;
+    width: 70%;
+
+}
+nav a {
+    margin-left: 60px;
+    font-size:large;
+    text-decoration: none;
+    padding: 5% 2%;
+}
+/* Link colors*/
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: black;
+}
+a:active {
+    color: black;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 15%;
+    font-size: smaller;
+    clear:both;
+    display: flex;
+    border-top: solid;  
+    background-color: whitesmoke;
+}
+footer div {
+    margin: 0 15%;
+}
+.floatRight{
+    float: right;
+}
+h2 {
+    margin-top: 150px;
+    margin-left: 12%;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+/*dashed line and bold price*/
+.product {
+    border-bottom: 1px dashed;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.product .name {
+    font-weight: lighter;
+}
+.product .price {
+    float: right;
+    font-weight: bold;
+}
+.floatMenu {
+    float: right;
+    width: 50%;
+    margin-right: 5%;
+}
+img {
+    float:left;
+    width:25%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+body {
+    background-color: gainsboro;
+}
+main {
+    overflow: auto;
+    padding-bottom: 100px;
+}

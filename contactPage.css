@@ -1,0 +1,138 @@
+/*logo*/
+h1 {
+    float:left;
+    text-transform: uppercase;
+    font-size: 3.5vh;
+    width: 22%;
+    margin-top: 1%;
+    margin-left: 1%;;
+    position: absolute;
+    border-style: solid;
+    padding: 1px;
+    background-color: whitesmoke;
+}
+.font {
+    font-size: small;
+}
+.flexdiv {
+    position:relative;
+    display: flex;
+}
+nav {
+    position: absolute;
+    right: 0;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: solid;
+    width: 70%;
+
+}
+nav a {
+    margin-left: 60px;
+    font-size:large;
+    text-decoration: none;
+    padding: 5% 2%;
+}
+/* Link colors*/
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: black;
+}
+a:active {
+    color: black;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 15%;
+    font-size: smaller;
+    clear:both;
+    display: flex;
+    border-top: solid;  
+    background-color: whitesmoke;
+}
+footer div {
+    margin: 0 15%;
+}
+.floatRight{
+    float: right;
+}
+label {
+    padding: 5px;
+}
+input ,textarea {
+    width: 80%;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+fieldset label{
+    display: inline-block;
+    vertical-align: top;
+    width: 90%;
+    font-weight: bold;
+
+}
+.input 
+
+label {
+    padding-bottom: 15px;
+}
+
+input.focus {
+    background-color: whitesmoke;
+}
+
+.floatDiv {
+    float: right;
+    width: 40%;
+    margin-right: 7%;
+    margin-bottom: 90px;
+}
+main div {
+    float: left;
+    width: 45%;
+    text-align: center;
+
+}
+/*overflow to prevent overlap with footer*/
+main {
+    margin-top: 150px;
+    padding-bottom: 50px;
+    overflow: auto;
+}
+
+h2 {
+    font-size: 3vw;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 7%;
+    background-color: whitesmoke;
+}
+main h3 {
+    font-size: larger;
+}
+body {
+    background-color: gainsboro;
+}
+main p {
+    font-size: larger;
+}
+/*submit and reset button*/
+input[type="submit"] {
+    border-width: 2px;
+    border-style: outset;
+    padding-block: 1px;
+    width: 100px;
+}
+input[type="reset"] {
+    border-width: 2px;
+    width: 100px;
+    margin-top: 20px;
+}

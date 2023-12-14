@@ -1,0 +1,97 @@
+img {
+    width: 100%;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    padding-bottom: 100px;
+}
+main div {
+    margin: auto;
+    position: relative;
+    width: 100%; 
+}
+
+nav {
+    border-bottom: solid;
+    display: flex;
+    flex-wrap:wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+nav a {
+    margin-left: 60px;
+    margin-right: 40px;
+    font-size:large;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: gray -10px -7px 7px;
+    position: absolute;
+    top:20%;
+    left: 0%;
+    right: 0;
+    padding: 0 20%;
+}
+
+h2 {
+    position: absolute;
+    text-transform: uppercase;
+    text-shadow: gray -10px -7px 7px;
+    margin: auto -5%;
+    bottom: 150px;
+    left:33%; 
+}
+.appointment {
+    bottom: 150px;
+    left: 47%;
+    margin-left: 7%;
+    
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 17%;
+    font-size: small;
+    clear:both;
+    display: flex;
+    border-top: solid;  
+    background-color: whitesmoke;
+}
+
+footer div {
+    margin: 0 15%;
+}
+.floatRight{
+    float: right;
+}
+
+/* Link colors*/
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: black; 
+}
+a:active {
+    color: black;
+}
+body {
+    background-color: whitesmoke;
+}
+
+
+
